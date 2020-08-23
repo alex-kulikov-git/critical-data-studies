@@ -6,7 +6,7 @@ Provided are:
 * Project Presentation
 * Easy-to-read Blog Entry
 
-The project took place in the form of a seminar at the Technical University of Munich (TUM) in 2018. 
+The work took place in the form of a seminar at the Technical University of Munich (TUM) in 2018. 
 
 My co-authors: __Tim Bierth__ & __Jurek Olden__. 
 
