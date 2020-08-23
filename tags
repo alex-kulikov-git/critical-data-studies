@@ -1,0 +1,79 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/1c8b98dd/
+Analysis	sections/analysis.tex	/^\\section{Analysis}\\label{section:analysis}$/;"	s
+Analyzing TwitchTV	blog.tex	/^\\section{Analyzing TwitchTV}$/;"	s
+BUILD_DIR	Makefile	/^BUILD_DIR=--output-directory=.\/build$/;"	m
+Brief Overview Computational Intelligence	sections/tech.tex	/^\\subsection{Brief Overview Computational Intelligence}$/;"	u	section:Technical Background
+Business Model	sections/twitch.tex	/^\\subsection{Business Model}$/;"	u	section:Twitch
+Clustering	sections/tech.tex	/^\\subsubsection{Clustering} $/;"	b	subsection:Technical Background""Brief Overview Computational Intelligence
+Collecting Data	blog.tex	/^\\section{Collecting Data}$/;"	s
+Conclusion  Outlook	sections/conclusion.tex	/^\\section{Conclusion\/Outlook}$/;"	s
+Conclusion on Cookie Policy	sections/analysis.tex	/^\\subsubsection{Conclusion on Cookie Policy}$/;"	b	subsection:Analysis""Cookie Policy
+Conclusion on Privacy Policy	sections/analysis.tex	/^\\subsubsection{Conclusion on Privacy Policy}$/;"	b	subsection:Analysis""Privacy Policy
+Cookie Policy	sections/analysis.tex	/^\\subsection{Cookie Policy}\\label{section:cookie-policy}$/;"	u	section:Analysis
+Critical Discussion	sections/discussion.tex	/^\\section{Critical Discussion}$/;"	s
+Criticism	blog.tex	/^\\section{Criticism}$/;"	s
+Data Flow	blog.tex	/^\\section{Data Flow}$/;"	s
+Data Flow	sections/analysis.tex	/^\\subsection{Data Flow}$/;"	u	section:Analysis
+Data Types	blog.tex	/^\\section{Data Types}$/;"	s
+Data security	sections/analysis.tex	/^\\subsubsection{Data security}$/;"	b	subsection:Analysis""Privacy Policy
+Data transfer	sections/tech.tex	/^\\subsection{Data transfer}$/;"	u	section:Technical Background
+Essential Cookies	sections/analysis.tex	/^\\subsubsection{Essential Cookies}\\label{section:essential-cookies}$/;"	b	subsection:Analysis""Cookie Policy
+Experimental Findings	sections/analysis.tex	/^\\subsection{Experimental Findings}$/;"	u	section:Analysis
+Flash Cookies	sections/analysis.tex	/^\\subsubsection{Flash Cookies}$/;"	b	subsection:Analysis""Cookie Policy
+Flash cookies	sections/tech.tex	/^\\subsection{Flash cookies}\\label{section:flash-cookies}$/;"	u	section:Technical Background
+Functionality Cookies	sections/analysis.tex	/^\\subsubsection{Functionality Cookies}$/;"	b	subsection:Analysis""Cookie Policy
+Growing Privacy Concerns	blog.tex	/^\\section{Growing Privacy Concerns}$/;"	s
+Implications to society	sections/twitch.tex	/^\\subsection{Implications to society}$/;"	u	section:Twitch
+Introduction	sections/introduction.tex	/^\\section{Introduction} $/;"	s
+Neural Networks	sections/tech.tex	/^\\subsubsection{Neural Networks}$/;"	b	subsection:Technical Background""Brief Overview Computational Intelligence
+PDF	Makefile	/^PDF=pdflatex --shell-escape$/;"	m
+Performance Cookies	sections/analysis.tex	/^\\subsubsection{Performance Cookies}$/;"	b	subsection:Analysis""Cookie Policy
+Platform	sections/twitch.tex	/^\\subsection{Platform}$/;"	u	section:Twitch
+Privacy Policy	sections/analysis.tex	/^\\subsection{Privacy Policy} \\label{section:privacy-policy}$/;"	u	section:Analysis
+Real world example	sections/tech.tex	/^\\subsection{Real world example}\\label{section:tech-example}$/;"	u	section:Technical Background
+Relevant literature	sections/literature.tex	/^\\section{Relevant literature}$/;"	s
+Requirements to third-parties reusing the data	sections/analysis.tex	/^\\subsubsection{Requirements to third-parties reusing the data}$/;"	b	subsection:Analysis""Privacy Policy
+Targeting or Advertising Cookies	sections/analysis.tex	/^\\subsubsection{Targeting or Advertising Cookies}$/;"	b	subsection:Analysis""Cookie Policy
+Technical Background	sections/tech.tex	/^\\section{Technical Background}\\label{section:technical-background}$/;"	s
+The new Oil - Data	blog.tex	/^\\section{The new Oil - Data}$/;"	s
+Third Party Cookies	sections/tech.tex	/^\\subsection{Third Party Cookies}\\label{section:third-party-cookies}$/;"	u	section:Technical Background
+Third-Party Cookies	sections/analysis.tex	/^\\subsubsection{Third-Party Cookies}$/;"	b	subsection:Analysis""Cookie Policy
+Twitch	sections/twitch.tex	/^\\section{Twitch}$/;"	s
+Twitch.tv --- a global streaming service	blog.tex	/^\\section{Twitch.tv --- a global streaming service}$/;"	s
+Usage of Cookies	blog.tex	/^\\section{Usage of Cookies}$/;"	s
+What Twitch does with the data	sections/analysis.tex	/^\\subsubsection{What Twitch does with the data}$/;"	b	subsection:Analysis""Privacy Policy
+What data Twitch gathers	sections/analysis.tex	/^\\subsubsection{What data Twitch gathers}$/;"	b	subsection:Analysis""Privacy Policy
+all	Makefile	/^all:$/;"	t
+fig:cookie_usage_notification	sections/analysis.tex	/^\\label{fig:cookie_usage_notification}$/;"	l
+fig:fb-button	sections/figures/fb-button.tex	/^\\caption{Social media elements on the article page}\\label{fig:fb-button}$/;"	l
+fig:fb-button-html	sections/figures/fb-button-html.tex	/^\\caption{Original HTML code from Figure~\\ref{fig:fb-button}, Page~\\pageref{fig:fb-button}}\\l/;"	l
+fig:k-means	sections/tech.tex	/^	\\label{fig:k-means}$/;"	l
+fig:login-via-twitch	sections/figures/login-via-twitch.tex	/^\\caption{Feature to login via a twitch account instead of using an account specific to the site/;"	l
+fig:recommended_connections	sections/appendix.tex	/^	\\label{fig:recommended_connections}$/;"	l
+fig:set-cookie	sections/figures/set-cookie.tex	/^\\caption{Example of a website requesting cookie storage along with delivering content}\\label{f/;"	l
+fig:third-party-content	sections/figures/third-party-content.tex	/^\\caption{Page element which has to be resolved by sending a request to abc.com}\\label{fig:thir/;"	l
+fig:tracker-pixel	sections/figures/tracker-pixel.tex	/^\\caption{Example of a one by one sized pictured to be requested from abc.com}\\label{fig:tracke/;"	l
+fig:twitch-local-cookie-unique-id	sections/appendix.tex	/^	\\label{fig:twitch-local-cookie-unique-id}$/;"	l
+fig:twitch-local-cookies	sections/analysis.tex	/^	\\label{fig:twitch-local-cookies}$/;"	l
+fig:twitch-local-cookies-2	sections/appendix.tex	/^	\\label{fig:twitch-local-cookies-2}$/;"	l
+fig:twitch_broadcasters_developers	sections/analysis.tex	/^	\\label{fig:twitch_broadcasters_developers}$/;"	l
+fig:twitch_data_universe	blog.tex	/^	\\label{fig:twitch_data_universe}$/;"	l
+fig:twitch_data_universe	sections/analysis.tex	/^	\\label{fig:twitch_data_universe}$/;"	l
+fig:twitch_entities	sections/analysis.tex	/^	\\label{fig:twitch_entities}$/;"	l
+fig:twitch_government	sections/analysis.tex	/^	\\label{fig:twitch_government}$/;"	l
+fig:twitch_partners	sections/analysis.tex	/^	\\label{fig:twitch_partners}$/;"	l
+fig:twitch_users	sections/analysis.tex	/^	\\label{fig:twitch_users}$/;"	l
+section:analysis	sections/analysis.tex	/^\\section{Analysis}\\label{section:analysis}$/;"	l
+section:cookie-policy	sections/analysis.tex	/^\\subsection{Cookie Policy}\\label{section:cookie-policy}$/;"	l
+section:essential-cookies	sections/analysis.tex	/^\\subsubsection{Essential Cookies}\\label{section:essential-cookies}$/;"	l
+section:flash-cookies	sections/tech.tex	/^\\subsection{Flash cookies}\\label{section:flash-cookies}$/;"	l
+section:privacy-policy	sections/analysis.tex	/^\\subsection{Privacy Policy} \\label{section:privacy-policy}$/;"	l
+section:tech-example	sections/tech.tex	/^\\subsection{Real world example}\\label{section:tech-example}$/;"	l
+section:technical-background	sections/tech.tex	/^\\section{Technical Background}\\label{section:technical-background}$/;"	l
+section:third-party-cookies	sections/tech.tex	/^\\subsection{Third Party Cookies}\\label{section:third-party-cookies}$/;"	l

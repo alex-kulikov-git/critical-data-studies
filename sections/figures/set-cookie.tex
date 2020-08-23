@@ -1,0 +1,23 @@
+\begin{figure}
+\begin{subfigure}[t]{.5\textwidth}
+\begin{minted}{http}
+GET /index.html HTTP/1.1
+Host: www.shop.example
+\end{minted}
+\vspace{2.55em}
+[..]
+\caption{HTTP request}
+\end{subfigure}%
+\medskip
+\begin{subfigure}[t]{.5\textwidth}
+\begin{minted}{http}
+HTTP/1.0 200 OK
+Content-type: text/html
+Set-Cookie: sessionId=a39d8f9;
+  Expires=Sat, 09 Jun 2018 10:18:14 GMT
+\end{minted}
+[..]
+\caption{Server response with cookie header}
+\end{subfigure}
+\caption{Example of a website requesting cookie storage along with delivering content}\label{fig:set-cookie}
+\end{figure}

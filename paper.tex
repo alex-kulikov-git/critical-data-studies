@@ -1,0 +1,69 @@
+%%%%%%%%%%%%%%%%
+%%% PREAMBLE %%%
+%%%%%%%%%%%%%%%%
+
+% Style
+\documentclass[12pt, a4paper]{article}
+
+% Encoding
+\usepackage[utf8]{inputenc}
+% BibTex
+\usepackage{cite}
+\usepackage{url}
+% Ensure figures stay inside their sections
+\usepackage[section]{placeins}
+% Source code highlighting
+\usepackage[outputdir=build, cache=false]{minted}
+\usemintedstyle{xcode}
+
+% Side-by-side figures
+\usepackage{subcaption}
+% Include figures from external files
+\usepackage{graphicx}
+
+% Appendix
+\usepackage[toc,page]{appendix}
+
+% Fast referencing including pageref
+\newcommand{\figref}[1]{(Figure~\ref{fig:#1}, Page~\pageref{fig:#1})}
+\newcommand{\sref}[1]{(Section~\ref{section:#1}, Page~\pageref{section:#1})}
+
+\title{Online Tracking --- Analysis of the TwitchTV streaming platform}
+\author{Tim Bierth, Oleksii Kulikov, Jurek Olden}
+\date{July 2018}
+
+%%%%%%%%%%%%%%%%
+%%% DOCUMENT %%%
+%%%%%%%%%%%%%%%%
+
+\begin{document}
+% Title
+\begin{titlepage}
+\maketitle
+\end{titlepage}
+
+\input{sections/introduction}
+
+\input{sections/literature}
+
+\input{sections/tech}
+
+\input{sections/twitch}
+
+\input{sections/analysis}
+
+%\input{sections/discussion}
+
+\input{sections/conclusion}
+
+% Bibliography
+\bibliographystyle{unsrt}
+\bibliography{sources}
+
+% appendix
+%\vspace*{220px}
+\clearpage
+\begin{appendices}
+	\input{sections/appendix}
+\end{appendices}
+\end{document}
